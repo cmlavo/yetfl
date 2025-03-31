@@ -21,7 +21,7 @@ solver = 'optlang-gurobi'
 # yeast_tfa.solver = solver
 	
 
-yeast = load_json_model('models/yeast8_cEFL_2542_enz_128_bins__20200326_152417.json')
+yeast = load_json_model('models/yeast8_cEFL_2584_enz_128_bins__20250331_161922.json')
 
 complete_medium(yeast)
 yeast.solver = solver

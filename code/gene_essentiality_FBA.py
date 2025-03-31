@@ -5,7 +5,7 @@ import pandas as pd
 
 
 # model = cobra.io.read_sbml_model('../reproducibility/yeast-GEM-latest_version/ModelFiles/xml/yeastGEM.xml')
-model = cobra.io.load_matlab_model('../thermo_curation/yeast8_thermo_curated.mat')
+model = cobra.io.load_matlab_model('../input_models/yeast8_thermo_curated.mat')
 
 
 # setting the medium
